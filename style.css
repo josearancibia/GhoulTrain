@@ -1,0 +1,72 @@
+
+
+body {
+  font-family: sans-serif;
+  background-color: orange;
+  color: #fff;
+}
+
+.header {
+  font-size:45px;
+  color: #fff;
+}
+
+.container {
+  background: rgba(22,22,22,0.8);
+  margin-top: 7vh;
+  border-radius: 25px;
+  border: 15px double orange;
+  padding: 0 40px 20px 40px;
+}
+
+.jumbotron {
+  background: none;
+  text-shadow: 2px 2px 0px orange;
+}
+
+.btn {
+  background: orange;
+  color: #fff;
+  border: 2px #000 solid;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #000;
+  border: 2px orange solid;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
+
+.table>thead {
+  color: orange;
+}
+
+.current-time {
+  color: orange;
+  text-shadow: none;
+
+}
+
+.panel {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.panel-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: orange;
+  border-bottom: 1px solid #fff;
+  margin: 10px 0;
+  padding: 0 0 10px 0;
+}
+
+.help-block {
+  color: #fff;
+}
