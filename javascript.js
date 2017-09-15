@@ -12,12 +12,7 @@ $(document).ready(function(){
   };
   firebase.initializeApp(config);
 
-  //Run Clock  
-  setInterval(function(){
-    $('.current-time').html(moment().format('hh:mm:ss A'))
-  }, 1000);
-
-  function loggedIn() {
+  function ghostTrain() {
 
     // Declare variables
     var database = firebase.database();
