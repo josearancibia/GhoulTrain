@@ -12,6 +12,7 @@ $(document).ready(function(){
   };
   firebase.initializeApp(config);
 
+
   function ghostTrain() {
 
     // Declare variables
@@ -20,7 +21,7 @@ $(document).ready(function(){
     var fbTime = moment();
     var newTime;
 
-    $('.submit').on('click', function(e) {
+    $('.button').on('click', function(e) {
 
       e.preventDefault();
       // Grab input values
